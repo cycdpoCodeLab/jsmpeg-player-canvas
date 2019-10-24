@@ -17,7 +17,7 @@ class App extends React.Component {
       playVideo: !this.state.playVideo
     }, () => {
       if(!this.state.playVideo) {
-        let videoUrl = 'www.youtube.com';
+        let videoUrl = 'https://cycdpocodelab.github.io/staticFiles/media/big_buck_bunny_640x360.ts';
         let videoWrapper = '#canvasParent';
         // let videoWrapper = this.refs['hideVideoRef'];
         let player = new JSMpeg.VideoElement(videoWrapper, videoUrl ,{
